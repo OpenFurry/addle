@@ -8,18 +8,18 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='django-submitify',
-    version='0.0.4',
+    name='django-addle',
+    version='0.0.1',
     packages=find_packages(),
     include_package_data=True,
     license='MIT License',
     description='A Django app for managing ads and internal promotions.',
     long_description=README,
-    url='https://github.com/OpenFurry/submitify',
+    url='https://github.com/OpenFurry/addle',
     author='OpenFurry contributors',
     author_email='contributors@openfurry.org',
     classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: 1 - Planning',
         'Environment :: Web Environment',
         'Framework :: Django',
         'Framework :: Django :: 1.10',
