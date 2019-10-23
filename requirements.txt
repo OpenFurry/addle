@@ -1,5 +1,5 @@
 coverage==4.0.3
-Django==1.10.3
+Django==1.11.23
 django-appconf==1.0.2
 django-extensions==1.7.4
 flake8==3.2.1
